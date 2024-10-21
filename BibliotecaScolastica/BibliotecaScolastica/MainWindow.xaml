@@ -18,11 +18,11 @@
         <TextBox x:Name="txt_Anno" HorizontalAlignment="Left" Margin="95,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt_Editore" HorizontalAlignment="Left" Margin="95,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt_Pagine" HorizontalAlignment="Left" Margin="95,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btn_Aggiungi" Content="Aggiungi libro" HorizontalAlignment="Left" Margin="20,230,0,0" VerticalAlignment="Top" Width="195" Height="30"/>
+        <Button x:Name="btn_Aggiungi" Content="Aggiungi libro" HorizontalAlignment="Left" Margin="20,230,0,0" VerticalAlignment="Top" Width="195" Height="30" Click="btn_Aggiungi_Click"/>
         <TextBlock x:Name="lbl_Cerca" HorizontalAlignment="Left" Margin="400,65,0,0" TextWrapping="Wrap" Text="Cerca un libro" VerticalAlignment="Top" FontSize="16"/>
         <TextBlock x:Name="lbl_CercaTitolo" HorizontalAlignment="Left" Margin="400,95,0,0" TextWrapping="Wrap" Text="Titolo" VerticalAlignment="Top" FontSize="16"/>
         <TextBox x:Name="txt_CercaTitolo" HorizontalAlignment="Left" Margin="475,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btn_Cerca" Content="Cerca" HorizontalAlignment="Left" Margin="400,140,0,0" VerticalAlignment="Top" Width="195" Height="30"/>
+        <Button x:Name="btn_Cerca" Content="Cerca" HorizontalAlignment="Left" Margin="400,140,0,0" VerticalAlignment="Top" Width="195" Height="30" Click="btn_Cerca_Click"/>
         <TextBlock x:Name="txt_Risultato" HorizontalAlignment="Left" Margin="400,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" Height="200"/>
     </Grid>
 </Window>

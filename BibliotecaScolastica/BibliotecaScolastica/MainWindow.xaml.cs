@@ -16,6 +16,7 @@ namespace BibliotecaScolastica
     /// </summary>
     public partial class MainWindow : Window
     {
+    // COMMENTO
         Biblioteca biblioteca = new Biblioteca();
 
         public MainWindow()
